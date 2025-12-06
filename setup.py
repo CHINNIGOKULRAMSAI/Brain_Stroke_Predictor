@@ -20,5 +20,5 @@ setup(
     name='Brain_Stroke_Prediction',
     author_email='chinnigokul43@gmail.com',
     packages=find_packages(),
-    requires=get_requirements('requirements.txt'),
+    install_requires=get_requirements('requirements.txt'),
 )
